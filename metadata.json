@@ -1,0 +1,8 @@
+{
+  "name": "Remix Shree Balajee Travels",
+  "description": "Top-rated 24x7 taxi \u0026 car rental service in Dhanbad, Jharkhand. Local hourly packages, outstation cabs \u0026 one-way drops to Ranchi, Kolkata, Deoghar \u0026 Patna.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

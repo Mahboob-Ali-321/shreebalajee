@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        try {
+          var _origFetch = window.fetch;
+          var _currentFetch = _origFetch ? _origFetch.bind(window) : undefined;
+          Object.defineProperty(window, "fetch", {
+            get: function () {
+              return _currentFetch;
+            },
+            set: function (val) {
+              _currentFetch = val;
+            },
+            configurable: true,
+            enumerable: true,
+          });
+        } catch (_) {}
+      })();
+    </script>
+    <title>Shree Balajee Travels | Best Taxi &amp; Outstation Cab in Dhanbad</title>
+    <meta
+      name="description"
+      content="Top-rated 24x7 taxi &amp; car rental service in Dhanbad, Jharkhand. Local hourly packages, outstation cabs &amp; one-way drops to Ranchi, Kolkata, Deoghar &amp; Patna."
+    />
+    <meta property="og:title" content="Shree Balajee Travels | Best Taxi &amp; Outstation Cab in Dhanbad" />
+    <meta
+      property="og:description"
+      content="Top-rated 24x7 taxi &amp; car rental service in Dhanbad, Jharkhand. Local hourly packages, outstation cabs &amp; one-way drops to Ranchi, Kolkata, Deoghar &amp; Patna."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Shree Balajee Travels" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shree Balajee Travels | Taxi &amp; Outstation Cab in Dhanbad" />
+    <meta
+      name="twitter:description"
+      content="Top-rated 24x7 taxi &amp; car rental service in Dhanbad, Jharkhand. Clean AC cars, polite drivers, per-km rates."
+    />
+    <link rel="preload" as="image" href="/images/hero-fleet.jpg" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- LocalBusiness TaxiService JSON-LD Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TaxiService",
+        "name": "Shree Balajee Travels",
+        "alternateName": "श्री बालाजी ट्रेवल्स",
+        "description": "Premier 24x7 taxi, car rental, and outstation cab service in Bartand, Dhanbad, Jharkhand.",
+        "telephone": "+919310241446",
+        "url": "https://shreebalajeetravels.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Lane No 4, Jai Prakash Nagar, Bartand",
+          "addressLocality": "Dhanbad",
+          "addressRegion": "Jharkhand",
+          "postalCode": "826007",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "23.8041",
+          "longitude": "86.4428"
+        },
+        "openingHours": "Mo-Su 00:00-24:00",
+        "priceRange": "₹₹",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "152",
+          "bestRating": "5"
+        },
+        "areaServed": [
+          "Dhanbad",
+          "Ranchi",
+          "Kolkata",
+          "Durgapur",
+          "Deoghar",
+          "Patna",
+          "Jamshedpur",
+          "Bokaro",
+          "Giridih"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#F3F6FC] text-[#0A1931] antialiased selection:bg-[#FFD147] selection:text-[#0A1931]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
