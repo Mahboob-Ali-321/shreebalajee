@@ -56,23 +56,19 @@ export default function Navbar() {
         <div className="max-w-6xl mx-auto px-4 py-2.5 flex items-center justify-between">
           {/* Logo & Brand Name */}
           <Link
-            to="/"
-            onClick={closeMenu}
-            className="flex items-center space-x-2.5 group"
-            title="Shree Balajee Travels Dhanbad"
-          >
-            <div className="w-10 h-10 rounded-xl bg-[#FFD147] text-[#0A1931] flex items-center justify-center font-extrabold text-lg shadow-inner group-hover:scale-105 transition-transform">
-              🚕
-            </div>
-            <div>
-              <div className="text-[16px] sm:text-[18px] font-bold tracking-tight text-white leading-tight font-heading">
-                Shree Balajee <span className="text-[#FFD147]">Travels</span>
-              </div>
-              <div className="text-[11px] text-[#FFD147] font-medium leading-none">
-                श्री बालाजी ट्रेवल्स • धनबाद
-              </div>
-            </div>
-          </Link>
+  to="/"
+  onClick={closeMenu}
+  className="flex shrink-0 items-center"
+  title="Shree Balajee Travels Dhanbad"
+>
+  <img
+    src="/logo.png"
+    alt="Shree Balajee Travels logo"
+    width={1000}
+    height={281}
+    className="h-11 sm:h-12 lg:h-14 w-auto max-w-none rounded-lg bg-white p-1.5"
+  />
+</Link>
 
           {/* Desktop Navigation Links */}
           <nav className="hidden lg:flex items-center space-x-6 text-[13px] font-medium">
