@@ -91,7 +91,7 @@ export default function Fleet() {
 
         <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3">
           <a
-            href="https://wa.me/919310241446?text=Hi%20Shree%20Balajee%20Travels,%20I%20need%20bulk%20cab%20booking%20for%20wedding/event%20in%20Dhanbad."
+            href="https://wa.me/919311112923?text=Hi%20Shree%20Balajee%20Travels,%20I%20need%20bulk%20cab%20booking%20for%20wedding/event%20in%20Dhanbad."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 bg-[#FFD147] hover:bg-[#F5C430] text-[#0A1931] font-bold py-3 px-4 rounded-xl text-xs uppercase tracking-wider shadow transition"
@@ -138,7 +138,7 @@ export default function Fleet() {
                 <td className="py-3.5 px-3">Dual Climate AC</td>
                 <td className="py-3.5 px-3 text-right">
                   <a
-                    href="https://wa.me/919310241446?text=Hi,%20I%20want%20to%20book%20Toyota%20Innova%20Crysta"
+                    href="https://wa.me/919311112923?text=Hi,%20I%20want%20to%20book%20Toyota%20Innova%20Crysta"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-[11px] font-bold text-emerald-700 hover:underline"
@@ -155,7 +155,7 @@ export default function Fleet() {
                 <td className="py-3.5 px-3">Dual AC Vents</td>
                 <td className="py-3.5 px-3 text-right">
                   <a
-                    href="https://wa.me/919310241446?text=Hi,%20I%20want%20to%20book%20Maruti%20Ertiga"
+                    href="https://wa.me/919311112923?text=Hi,%20I%20want%20to%20book%20Maruti%20Ertiga"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-[11px] font-bold text-emerald-700 hover:underline"
@@ -172,7 +172,7 @@ export default function Fleet() {
                 <td className="py-3.5 px-3">High-Power AC</td>
                 <td className="py-3.5 px-3 text-right">
                   <a
-                    href="https://wa.me/919310241446?text=Hi,%20I%20want%20to%20book%20Mahindra%20Scorpio"
+                    href="https://wa.me/919311112923?text=Hi,%20I%20want%20to%20book%20Mahindra%20Scorpio"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-[11px] font-bold text-emerald-700 hover:underline"
@@ -189,7 +189,7 @@ export default function Fleet() {
                 <td className="py-3.5 px-3">Chilled AC &amp; Heater</td>
                 <td className="py-3.5 px-3 text-right">
                   <a
-                    href="https://wa.me/919310241446?text=Hi,%20I%20want%20to%20book%20a%20Maruti%20Suzuki%20Swift"
+                    href="https://wa.me/919311112923?text=Hi,%20I%20want%20to%20book%20a%20Maruti%20Suzuki%20Swift"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-[11px] font-bold text-emerald-700 hover:underline"
@@ -206,7 +206,7 @@ export default function Fleet() {
                 <td className="py-3.5 px-3">Full Climate AC</td>
                 <td className="py-3.5 px-3 text-right">
                   <a
-                    href="https://wa.me/919310241446?text=Hi,%20I%20want%20to%20book%20Honda%20WR-V"
+                    href="https://wa.me/919311112923?text=Hi,%20I%20want%20to%20book%20Honda%20WR-V"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-[11px] font-bold text-emerald-700 hover:underline"

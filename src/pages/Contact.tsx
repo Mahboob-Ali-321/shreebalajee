@@ -140,7 +140,7 @@ export default function Contact() {
                     Phone &amp; Helpline
                   </h3>
                   <a
-                    href="tel:+919310241446"
+                    href="tel:+919311112923"
                     className="text-sm sm:text-base font-extrabold text-[#14306B] hover:underline block mt-0.5"
                   >
                     93102 41446
@@ -188,7 +188,7 @@ export default function Contact() {
             {/* Quick Action CTA Buttons */}
             <div className="grid grid-cols-2 gap-2.5 pt-1">
               <a
-                href="tel:+919310241446"
+                href="tel:+919311112923"
                 className="flex items-center justify-center gap-1.5 bg-[#14306B] hover:bg-[#0A1931] text-white font-bold py-3 rounded-xl text-xs sm:text-sm transition shadow-sm active:scale-95"
               >
                 <Phone className="w-4 h-4 text-[#FFD147]" />
@@ -340,7 +340,7 @@ export default function Contact() {
 
           <div className="text-center pt-1 text-[11px] text-gray-500">
             Prefer a quick telephone call? Reach operator directly at{" "}
-            <a href="tel:+919310241446" className="text-[#14306B] font-bold underline">
+            <a href="tel:+919311112923" className="text-[#14306B] font-bold underline">
               93102 41446
             </a>
           </div>

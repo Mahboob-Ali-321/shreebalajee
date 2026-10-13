@@ -598,7 +598,7 @@ export default function Home() {
                       Phone &amp; Hotline
                     </strong>
                     <a
-                      href="tel:+919310241446"
+                      href="tel:+919311112923"
                       className="text-sm sm:text-base font-extrabold text-[#14306B] hover:underline block mt-0.5"
                     >
                       93102 41446
@@ -628,7 +628,7 @@ export default function Home() {
 
                 <div className="grid grid-cols-2 gap-2 pt-2">
                   <a
-                    href="tel:+919310241446"
+                    href="tel:+919311112923"
                     className="flex items-center justify-center gap-1.5 bg-[#14306B] hover:bg-[#0A1931] text-white font-bold py-2.5 rounded-xl text-xs transition active:scale-95"
                   >
                     <Phone className="w-3.5 h-3.5 text-[#FFD147]" />

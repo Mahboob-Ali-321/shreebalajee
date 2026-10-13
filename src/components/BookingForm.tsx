@@ -117,7 +117,7 @@ export default function BookingForm({ className = "" }: BookingFormProps) {
       `Car: ${carType}`,
     ].join("\n");
 
-    const waUrl = `https://wa.me/919310241446?text=${encodeURIComponent(
+    const waUrl = `https://wa.me/919311112923?text=${encodeURIComponent(
       message
     )}`;
     window.open(waUrl, "_blank");

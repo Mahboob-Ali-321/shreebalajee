@@ -105,7 +105,7 @@ export default function Reviews() {
           Your feedback helps us continuously improve our service quality for Dhanbad. We appreciate your support and recommendations!
         </p>
         <a
-          href="https://wa.me/919310241446?text=Hi%20Shree%20Balajee%20Travels,%20I%20would%20like%20to%20share%20my%20trip%20feedback."
+          href="https://wa.me/919311112923?text=Hi%20Shree%20Balajee%20Travels,%20I%20would%20like%20to%20share%20my%20trip%20feedback."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-[#14306B] hover:bg-[#0A1931] text-white font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider transition shadow"
