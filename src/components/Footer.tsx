@@ -9,14 +9,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-white/10 text-xs sm:text-sm">
           {/* Column 1: Brand & Hindi Identity */}
           <div className="space-y-3">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-[#FFD147] text-[#0A1931] flex items-center justify-center font-black text-sm">
-                🚕
-              </div>
-              <span className="text-lg font-bold text-white font-heading">
-                Shree Balajee <span className="text-[#FFD147]">Travels</span>
-              </span>
-            </div>
+            <Link
+              to="/"
+              className="inline-block bg-white px-3 py-2 rounded-xl shadow-md hover:opacity-95 transition"
+              title="Shree Balajee Travels"
+            >
+              <img
+                src="/images/logo.png"
+                alt="Shree Balajee Travels logo"
+                className="h-10 md:h-12 w-auto object-contain"
+              />
+            </Link>
             <p className="text-[#FFD147] font-semibold text-xs">
               श्री बालाजी ट्रेवल्स • धनबाद, झारखंड
             </p>

@@ -3,6 +3,9 @@
  * All image URLs are centralized here so they can be easily swapped for new photos.
  */
 export const IMAGES = {
+  // Brand Logo
+  logo: "/images/logo.png",
+
   // Hero and fleet showcases
   heroFleet: "/images/hero-fleet.jpg",
   

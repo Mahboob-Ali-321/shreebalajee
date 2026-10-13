@@ -8,6 +8,7 @@ import RouteCard from "../components/RouteCard";
 import ReviewCard from "../components/ReviewCard";
 import FaqAccordion from "../components/FaqAccordion";
 import SectionTitle from "../components/SectionTitle";
+import GallerySection from "../components/GallerySection";
 import { FLEET_DATA, LOCAL_PACKAGES, ONE_WAY_ROUTES, REVIEWS, BUSINESS_INFO } from "../data/business";
 import { IMAGES } from "../data/images";
 
@@ -504,102 +505,7 @@ export default function Home() {
       </section>
 
       {/* 10. REAL VEHICLE PHOTOS GALLERY */}
-      <section className="py-12 px-4 bg-white border-y border-gray-200">
-        <div className="max-w-6xl mx-auto">
-          <SectionTitle
-            badge="Real Vehicle Photos"
-            title="Our Ground Fleet in Dhanbad"
-            subtitle="Actual photos of our cars. What you book is what arrives at your doorstep."
-          />
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-slate-50 group">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={IMAGES.heroFleet}
-                  alt="Full Lineup: Swift, Ertiga, Innova, Scorpio"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 text-xs font-semibold text-gray-800 bg-white border-t border-gray-100">
-                Full Lineup: Swift, Ertiga, Innova Crysta, Scorpio
-              </div>
-            </div>
-
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-slate-50 group">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={IMAGES.innovaCrysta}
-                  alt="Toyota Innova Crysta (JH 10 BK 3670)"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 text-xs font-semibold text-gray-800 bg-white border-t border-gray-100">
-                Toyota Innova Crysta (JH 10 BK 3670) • Executive Class
-              </div>
-            </div>
-
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-slate-50 group">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={IMAGES.scorpioLineup}
-                  alt="Mahindra Scorpio Classic and MPV line"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 text-xs font-semibold text-gray-800 bg-white border-t border-gray-100">
-                Mahindra Scorpio (JH 10 DG 6565) &amp; MPVs
-              </div>
-            </div>
-
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-slate-50 group">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={IMAGES.hondaWrv}
-                  alt="Honda WR-V (JH 10 BY 8205)"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 text-xs font-semibold text-gray-800 bg-white border-t border-gray-100">
-                Honda WR-V (JH 10 BY 8205) • Compact Luxury
-              </div>
-            </div>
-
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-slate-50 group">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={IMAGES.ownerFounder}
-                  alt="Dedicated Team and Inspected Vehicles"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 text-xs font-semibold text-gray-800 bg-white border-t border-gray-100">
-                Dedicated Chauffeurs &amp; Inspected Clean Cabs
-              </div>
-            </div>
-
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-slate-50 group">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={IMAGES.marutiSwift}
-                  alt="Maruti Suzuki Swift cab in Dhanbad"
-                  style={{ objectPosition: "center 55%" }}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 text-xs font-semibold text-gray-800 bg-white border-t border-gray-100">
-                Maruti Suzuki Swift • Fuel-Efficient Hatchback
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <GallerySection />
 
       {/* 11. FAQ SECTION */}
       <section className="py-12 px-4 max-w-6xl mx-auto" id="faqs">
