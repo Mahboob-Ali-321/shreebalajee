@@ -10,16 +10,18 @@ export default function Footer() {
           {/* Column 1: Brand & Hindi Identity */}
           <div className="space-y-3">
             <Link
-              to="/"
-              className="inline-block bg-white px-3 py-2 rounded-xl shadow-md hover:opacity-95 transition"
-              title="Shree Balajee Travels"
-            >
-              <img
-                src="/images/logo.png"
-                alt="Shree Balajee Travels logo"
-                className="h-10 md:h-12 w-auto object-contain"
-              />
-            </Link>
+  to="/"
+  className="inline-block transition hover:opacity-95"
+  title="Shree Balajee Travels"
+>
+  <img
+    src="/logo-emblem.png"
+    alt="Shree Balajee Travels logo"
+    width={400}
+    height={400}
+    className="h-28 w-28 sm:h-32 sm:w-32 object-contain"
+  />
+</Link>
             <p className="text-[#FFD147] font-semibold text-xs">
               श्री बालाजी ट्रेवल्स • धनबाद, झारखंड
             </p>

@@ -58,16 +58,24 @@ export default function Navbar() {
           <Link
   to="/"
   onClick={closeMenu}
-  className="flex shrink-0 items-center"
+  className="flex shrink-0 items-center gap-2.5"
   title="Shree Balajee Travels Dhanbad"
 >
   <img
-    src="/logo.png"
+    src="/logo-emblem.png"
     alt="Shree Balajee Travels logo"
-    width={1000}
-    height={281}
-    className="h-11 sm:h-12 lg:h-14 w-auto max-w-none rounded-lg bg-white p-1.5"
+    width={400}
+    height={400}
+    className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 object-contain"
   />
+  <div className="leading-tight">
+    <div className="text-[15px] sm:text-lg font-bold tracking-tight text-white font-heading">
+      Shree Balajee <span className="text-[#FFD147]">Travels</span>
+    </div>
+    <div className="text-[10px] sm:text-[11px] font-medium text-[#FFD147]">
+      श्री बालाजी ट्रेवल्स • धनबाद
+    </div>
+  </div>
 </Link>
 
           {/* Desktop Navigation Links */}
