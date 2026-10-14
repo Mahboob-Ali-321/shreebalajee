@@ -12,6 +12,7 @@ import Pricing from "./pages/Pricing";
 import RoutesPage from "./pages/Routes";
 import Reviews from "./pages/Reviews";
 import Contact from "./pages/Contact";
+import BranchOffice from "./components/BranchOffice";
 
 export default function App() {
   return (
@@ -24,12 +25,28 @@ export default function App() {
         {/* Main Content Viewport */}
         <main className="flex-1 w-full overflow-x-hidden">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route
+              path="/"
+              element={
+                <>
+                  <Home />
+                  <BranchOffice />
+                </>
+              }
+            />
             <Route path="/fleet" element={<Fleet />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/routes" element={<RoutesPage />} />
             <Route path="/reviews" element={<Reviews />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route
+              path="/contact"
+              element={
+                <>
+                  <Contact />
+                  <BranchOffice />
+                </>
+              }
+            />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
