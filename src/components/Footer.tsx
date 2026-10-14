@@ -15,7 +15,7 @@ export default function Footer() {
   title="Shree Balajee Travels"
 >
   <img
-    src="/logo-emblem.png"
+    src="/logo-emblem-v2.png"
     alt="Shree Balajee Travels logo"
     width={400}
     height={400}
